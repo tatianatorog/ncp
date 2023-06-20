@@ -912,17 +912,17 @@ div#preloader {
 # Services
 --------------------------------------------------------------*/
 .services-area.area-padding {
-  background: #e5e5e533;
-  padding: 70px 0px 100px;
+
+
  /* background: #f4f4f44a; */
-    border-top: 1px solid #8080800d;
+   
     /* background-color: #f9f9f9;*/
 }
 
-.services-area.area-padding.service .container
+/* .services-area.area-padding.service .container
 {
   padding-bottom:  80px ;
-}
+} */
 
 .services .row>*{
   padding-right: calc(var(--bs-gutter-x) * 1.5);
