@@ -70,13 +70,13 @@ h6 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 50px;
 }
 
 h2 {
-  font-size: 38px;
-  line-height: 40px;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 h3 {
@@ -220,7 +220,7 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 70px;
   position: relative;
@@ -255,7 +255,7 @@ div#preloader {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 110px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -264,7 +264,7 @@ div#preloader {
 
 #header.header-scrolled {
   background:rgba(22,47,51,255);
-  height: 100px;
+  height: 90px;
 }
 
 #header .logo h1 {
@@ -288,7 +288,7 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 100px;
+  max-height: 90px;
 }
 
 @media (max-width: 768px) {
@@ -629,7 +629,7 @@ div#preloader {
 
 @media (min-width: 1024px) {
   #hero p {
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -913,7 +913,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .services-area.area-padding {
   background: #e5e5e533;
-  padding: 100px 0px 100px;
+  padding: 70px 0px 100px;
  /* background: #f4f4f44a; */
     border-top: 1px solid #8080800d;
     /* background-color: #f9f9f9;*/
@@ -942,7 +942,7 @@ max-width: 90px;
 
 
 .section-headline.services-head>h2 {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   text-transform: uppercase;
     color: #000;
 }
@@ -976,7 +976,7 @@ background-color: white;
 
 .single-services>h4 {
   color:#000;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: left;
@@ -2380,11 +2380,11 @@ span.email-notes {
 --------------------------------------------------------------*/
 .footer-area {
   padding: 40px 0;
-  background: #f9f9f9;
+  background: #163034;
 }
 
 .footer-head p {
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .footer-head h4 {
@@ -2484,7 +2484,7 @@ span.email-notes {
 }
 
 .footer-area-bottom {
-  background: #f1f1f1 none repeat scroll 0 0;
+  background:rgb(22, 48, 52)none repeat scroll 0 0;
   padding: 15px 0;
 }
 
@@ -2494,12 +2494,12 @@ span.email-notes {
 }
 
 .copyright-text a {
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .copyright>p {
   margin-bottom: 0;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .copyright a,
@@ -2889,4 +2889,28 @@ span.email-notes {
     margin-bottom: 50px;
   }
   
+}
+
+.text-about{
+text-align: justify;
+font-size: large;
+}
+
+.img-about{
+  text-align: center;
+}
+.img-about img{
+  width: 80%;
+}
+.second-title-about{
+  color: #198393;
+}
+
+.title-text-about{
+  animation: fadeIn 30s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
