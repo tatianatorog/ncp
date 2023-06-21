@@ -950,10 +950,15 @@ max-width: 90px;
 .services-details {
   text-align: center; 
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%); 
-  min-height: 257px;
-  padding: 40px 40px; 
+  min-height: 270px;
+  padding: 35px 35px; 
   transition: all ease-in-out 0.3s; 
   transition: all 0.5s ease 0s;
+}
+
+
+.sectors .services-details {
+  min-height: 368px;
 }
 
 .services-area.area-padding.service  {
@@ -2907,10 +2912,26 @@ font-size: large;
 }
 
 .title-text-about{
-  animation: fadeIn 30s;
+  animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.services-area.area-padding{
+  padding: 50px 0px 80px;
+}
+
+/* .sectors .services-details {
+  box-shadow: none;
+} */
+
+/* .sectors .services .single-services>h4 {
+  text-align: left;
+} */
+
+.invest .services-details{
+padding-right: 20px;
 }
