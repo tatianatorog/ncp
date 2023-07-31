@@ -10,7 +10,7 @@
 
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
-      event.preventDefault();
+      
 
       let thisForm = this;
 
@@ -61,7 +61,7 @@
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
-        thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.querySelector('.sent-message').classList.remove('d-block');
         thisForm.reset(); 
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
@@ -72,10 +72,16 @@
     });
   }
 
-  function displayError(thisForm, error) {
+  function displayError(thisForm) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
+    thisForm.querySelector('.sent-message').classList.add('d-block');
+      
+        setTimeout(function(){
+          thisForm.querySelector('.sent-message').classList.remove('d-block');
+      }, 5000)
+       
+      thisForm.reset(); 
+
   }
 
 })();

@@ -951,7 +951,7 @@ max-width: 90px;
   text-align: center; 
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%); 
   min-height: 270px;
-  padding: 35px 35px; 
+  padding: 20px 30px; 
   transition: all ease-in-out 0.3s; 
   transition: all 0.5s ease 0s;
 }
@@ -966,10 +966,10 @@ max-width: 90px;
 background-color: white;
 }
 
-.services-details:hover h4,
+/* .services-details:hover h4,
 .services-details:hover .services-icon {
   color: #3EC1D5;
-}
+} */
 
 .row.second-row {
   margin-top: 40px;
@@ -2384,7 +2384,7 @@ span.email-notes {
 # Footer
 --------------------------------------------------------------*/
 .footer-area {
-  padding: 40px 0;
+  padding: 30px 0;
   background: #163034;
 }
 
@@ -2905,20 +2905,20 @@ font-size: large;
   text-align: center;
 }
 .img-about img{
-  width: 80%;
+  width: 90%;
 }
 .second-title-about{
   color: #198393;
 }
 
-.title-text-about{
+/* .title-text-about{
   animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
+} */
 
 .services-area.area-padding{
   padding: 50px 0px 80px;
@@ -2934,4 +2934,8 @@ font-size: large;
 
 .invest .services-details{
 padding-right: 20px;
+}
+
+.text-contact{
+  text-align: justify;
 }
